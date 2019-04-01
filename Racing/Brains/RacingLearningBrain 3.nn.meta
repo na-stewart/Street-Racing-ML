@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f47050b5778479047a77faa8c0edb087
+ScriptedImporter:
+  fileIDToRecycleName:
+    11400000: Assets/Racing/Brains/RacingLearningBrain 3.nn
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 83221ad3db87f4b3b91b041047cb2bc5, type: 3}
