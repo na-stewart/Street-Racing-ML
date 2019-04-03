@@ -9,7 +9,7 @@ I also used a python enviroment called Anaconda for training and analasis of the
 
 Video: https://www.youtube.com/watch?v=X4s77PRfk90
 
-The Ai was trained to put collecting points a the highest priority. This leads the ai sometimes to be too "bold" which leads to it getting trapped or crashing into cars.
+The ai was trained to put collecting points as the highest priority. This leads the ai sometimes to be too "bold" which leads to it getting trapped or crashing into cars.
 
 # Images:
 ![alt text](https://github.com/sw1pe/Street-Racing-ML/blob/master/Images/Capture.JPG)
