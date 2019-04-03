@@ -1,7 +1,7 @@
 # Street Racing ML
 I created this for my own curiousty into how machine learning works.
 
-Also I created for my school's science fair. This is one of the few projects I plan to make about ai.
+Also I created this for my school's science fair. This is one of the few projects I plan to make about ai.
 
 I used a library called ml-agents created by Unity which allows you to easily make ML enviroments: https://github.com/Unity-Technologies/ml-agents
 
