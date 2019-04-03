@@ -6,8 +6,7 @@ public class PointGenerator : MonoBehaviour
 {
     [SerializeField] GameObject point;
     [SerializeField] private int pointAmount;
-    [SerializeField] Vector3 minSpawningVector;
-    [SerializeField] Vector3 maxSpawningVector;
+    [SerializeField] Vector3 minSpawningVector, maxSpawningVector;
 
     
     public void Generate()

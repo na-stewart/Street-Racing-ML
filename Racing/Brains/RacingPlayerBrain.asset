@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RacingPlayerBrain
   m_EditorClassIdentifier: 
   brainParameters:
-    vectorObservationSize: 91
+    vectorObservationSize: 119
     numStackedVectorObservations: 1
     vectorActionSize: 02000000
     cameraResolutions: []

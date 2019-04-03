@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RacingLearningBrain
   m_EditorClassIdentifier: 
   brainParameters:
-    vectorObservationSize: 91
+    vectorObservationSize: 119
     numStackedVectorObservations: 1
     vectorActionSize: 02000000
     cameraResolutions: []
@@ -21,5 +21,5 @@ MonoBehaviour:
     - 
     - 
     vectorActionSpaceType: 1
-  model: {fileID: 11400000, guid: 90c95328daab79c4d9a7ed2644f844c0, type: 3}
+  model: {fileID: 11400000, guid: 0e71e65bb5f967042875e1da5003015a, type: 3}
   inferenceDevice: 0

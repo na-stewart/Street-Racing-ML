@@ -12,13 +12,13 @@ public class RacingAgent : Agent
     private Rigidbody rigidBody;
     private Vector3 agentStartPos;
     private Quaternion startRotation;
+    private float rewardsCollected;
     [SerializeField] private float agentSpeed;
 
  
     
     private void Start()
     {
-
         rayPerception = GetComponent<RayPerception>();
         rigidBody = GetComponent<Rigidbody>();
         racingAcademy = FindObjectOfType<RacingAcademy>();  
@@ -40,36 +40,35 @@ public class RacingAgent : Agent
 
         if (hitObjects.Where(col => col.gameObject.tag == "Obstacle").ToArray().Length == 1)
         {
-            SetReward(-1f);
+            SetReward(-1);
             Done();
         }
-
         else if (hitObjects.Where(col => col.gameObject.tag == "Finish").ToArray().Length == 1)
         {
-           
-            AddReward(+0.5f);
+            Debug.Log(rewardsCollected);
+            SetReward(rewardsCollected);
             Done();
         }
         else if (hitObjects.Where(col => col.gameObject.tag == "Point").ToArray().Length == 1)
         {
-            AddReward(+0.2f);
-            Destroy(hitObjects[0].gameObject);           
+            rewardsCollected += 0.1f;
+            Destroy(hitObjects[0].gameObject);
         }
 
     }
 
     public override void CollectObservations()
     {
-        float[] rayAngles = { 0f, 45f, 90f, 135f, 180f, 110f, 70f, -45f, -90, -135, -180, -110, -70 };
+        float[] rayAngles = { 0f, 80, 45f, 58, 122, 100, 90f, 135f, 180f, 110f, 70f, -45f, -90, -135, -180, -110, -60 };
         string[] detectableObjects = { "Obstacle", "Agent", "Point", "Finish", "Start" };
-        AddVectorObs(rayPerception.Perceive(20f, rayAngles, detectableObjects, 0f, 0f));
+        AddVectorObs(rayPerception.Perceive(20f, rayAngles, detectableObjects));
     }
 
     public override void AgentReset()
     {
-       
-        transform.localPosition = new Vector3(UnityEngine.Random.Range(-10, 10), 1.295539f, -65f);
-        transform.rotation = startRotation;
+        rewardsCollected = 0;
+        transform.localPosition = new Vector3(UnityEngine.Random.Range(-11, 11), 1.295539f, -65f);
+        transform.rotation = startRotation;     
     }
 
    
