@@ -9,7 +9,7 @@ I also used a python enviroment called Anaconda for training and analasis of the
 
 Video: https://www.youtube.com/watch?v=X4s77PRfk90
 
-#Images:
+# Images:
 ![alt text](https://github.com/sw1pe/Street-Racing-ML/blob/master/Images/Capture.JPG)
 
 ![alt text](https://github.com/sw1pe/Street-Racing-ML/blob/master/Images/Capture1.JPG)
