@@ -11,6 +11,11 @@ Video: https://www.youtube.com/watch?v=X4s77PRfk90
 
 The ai was trained to put collecting points as the highest priority. This leads the ai sometimes to be too "bold" which leads to it getting trapped or crashing into cars. However this also leads to some really cool looking maneuvers which was the goal.
 
+##  How to use
+1. Make sure to download java 8 at oracle.com which works for any operating system.
+2. Download the .jar file from the releases tab and and run the compiler.
+3. Decompile the application and you should be able to run it!
+
 # Images:
 ![alt text](https://github.com/sw1pe/Street-Racing-ML/blob/master/Images/Capture.JPG)
 
