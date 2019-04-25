@@ -24,7 +24,6 @@ public class Car : MonoBehaviour
     void Update()
     {
         transform.Translate(0, 0, speed * Time.deltaTime);
-        rigidBody.velocity = transform.forward * speed;
       
     }
 
