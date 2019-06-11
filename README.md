@@ -16,6 +16,6 @@ The ai was trained to put collecting points as the highest priority. This leads 
 ## Images:
 ![alt text](https://github.com/sw1pe/Street-Racing-ML/blob/master/Images/Capture.JPG)
 
-![alt text](https://github.com/sw1pe/Street-Racing-ML/blob/master/Images/Capture1.JPG)
+![alt text](https://github.com/sw1pe/Street-Racing-ML/blob/master/Images/mlStreetRacing.jpg)
 
 ![alt text](https://github.com/sw1pe/Street-Racing-ML/blob/master/Images/Capture2.JPG)
