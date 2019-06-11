@@ -7,8 +7,6 @@ I used a library called ml-agents created by Unity which allows you to easily ma
 
 I also used a python enviroment called Anaconda for training and analasis of the agents using Tensorflow.
 
-Video: https://www.youtube.com/watch?v=X4s77PRfk90
-
 The ai was trained to put collecting points as the highest priority. This leads the ai sometimes to be too "bold" which leads to it getting trapped or crashing into cars. However this also leads to some really cool looking maneuvers which was the goal.
 
 ##  How to use
