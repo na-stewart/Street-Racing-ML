@@ -5,9 +5,9 @@ Also I created this for my school's science fair. This is one of the few project
 
 I used a library called ml-agents created by Unity which allows you to easily make ML enviroments: https://github.com/Unity-Technologies/ml-agents
 
-I also used a python enviroment called Anaconda for training and analasis of the agents using Tensorflow.
+I also used a python enviroment called Anaconda for training and analasis.
 
-The ai was trained to put collecting points as the highest priority. This leads the ai sometimes to be too "bold" which leads to it getting trapped or crashing into cars. However this also leads to some really cool looking maneuvers which was the goal.
+The ai was trained to put collecting points as the highest priority. 
 
 ##  How to use
 1. Download the setup file from the releases tab.
