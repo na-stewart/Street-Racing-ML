@@ -3,11 +3,7 @@ I created this for my own curiousty into how machine learning works.
 
 Also I created this for my school's science fair. This is one of the few projects I plan to make about ai.
 
-I used a library called ml-agents created by Unity which allows you to easily make ML enviroments: https://github.com/Unity-Technologies/ml-agents
-
-I also used a python enviroment called Anaconda for training and analasis.
-
-The ai was trained to put collecting points as the highest priority. 
+After review, I think that my only mistake was the putting the car's to close to the obstacle cars for their starting point. This application was a great learning experience and I plan on experimenting more with Ai in the future. 
 
 ##  How to use
 1. Download the setup file from the releases tab.
