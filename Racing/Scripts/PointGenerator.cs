@@ -7,7 +7,6 @@ public class PointGenerator : MonoBehaviour
     [SerializeField] GameObject point;
     [SerializeField] private int pointAmount;
     [SerializeField] Vector3 minSpawningVector, maxSpawningVector;
-
     
     public void Generate()
     {
@@ -15,7 +14,6 @@ public class PointGenerator : MonoBehaviour
         {
             GameObject go = Instantiate(point, transform.parent.position + GeneratedPosition(), Quaternion.identity, transform.parent);
             go.transform.parent = transform.parent;
-          
         }
     }
 
@@ -27,7 +25,4 @@ public class PointGenerator : MonoBehaviour
         z = Random.Range(minSpawningVector.z, maxSpawningVector.z);
         return new Vector3(x, y, z);
     }
-
-    // Update is called once per frame
-  
 }
