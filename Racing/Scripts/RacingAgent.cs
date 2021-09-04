@@ -14,8 +14,6 @@ public class RacingAgent : Agent
     private Quaternion startRotation;
     private float rewardsCollected;
     [SerializeField] private float agentSpeed;
-
- 
     
     private void Start()
     {
@@ -35,9 +33,7 @@ public class RacingAgent : Agent
 
     private void detectCollision()
     {
-        Collider[] hitObjects = Physics.OverlapBox(transform.position,
-                                           new Vector3(0.4f, 0.4f, 0.4f));
-
+        Collider[] hitObjects = Physics.OverlapBox(transform.position, new Vector3(0.4f, 0.4f, 0.4f));
         if (hitObjects.Where(col => col.gameObject.tag == "Obstacle").ToArray().Length == 1)
         {
             SetReward(-1);
@@ -70,9 +66,4 @@ public class RacingAgent : Agent
         transform.localPosition = new Vector3(UnityEngine.Random.Range(-11, 11), 1.295539f, -65f);
         transform.rotation = startRotation;     
     }
-
-   
-
-
-
 }
