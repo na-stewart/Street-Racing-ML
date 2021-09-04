@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class Car : MonoBehaviour
 {
-
     public float speed;
     private Vector3 startPosition;
     private Quaternion startRotation;
     private Rigidbody rigidBody;
-
-    // Start is called before the first frame update
 
     private void Start()
     {       
@@ -19,12 +16,9 @@ public class Car : MonoBehaviour
         startRotation = transform.rotation;
     }
 
-
-    // Update is called once per frame
     void Update()
     {
-        transform.Translate(0, 0, speed * Time.deltaTime);
-      
+        transform.Translate(0, 0, speed * Time.deltaTime);   
     }
 
     private void OnCollisionEnter(Collision collision)
