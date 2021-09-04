@@ -5,14 +5,12 @@ using UnityEngine;
 
 public class RacingAcademy : Academy
 {
-
     public override void InitializeAcademy()
     {
         Monitor.SetActive(true);
         base.InitializeAcademy();
     }
-
-    //was lazy 
+    
     public override void AcademyReset()
     {   
         TrafficGenerator[] trafficGenerators = FindObjectsOfType(typeof(TrafficGenerator)) as TrafficGenerator[]; 
