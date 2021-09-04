@@ -5,7 +5,6 @@ using UnityEngine;
 public class StableCam : MonoBehaviour
 {
     public GameObject player;
-
     private Vector3 offset;
 
     void Start()
