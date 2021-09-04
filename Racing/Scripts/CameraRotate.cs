@@ -6,7 +6,6 @@ public class CameraRotate : MonoBehaviour
 {
     [SerializeField] private Transform target;   
  
- 
     void LateUpdate()
     {
         transform.LookAt(target);
