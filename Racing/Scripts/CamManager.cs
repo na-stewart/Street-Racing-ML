@@ -13,7 +13,6 @@ public class CamManager : MonoBehaviour
     {
         cameras = GetComponentsInChildren<Camera>();   
         StartCoroutine(ActivateCamera());
-
     }
     
     private IEnumerator ActivateCamera()
@@ -29,7 +28,6 @@ public class CamManager : MonoBehaviour
         activatedCam++;
         if (activatedCam == cameras.Length)
             activatedCam = 0;
-        StartCoroutine(ActivateCamera());
-           
+        StartCoroutine(ActivateCamera());     
     }
 }
