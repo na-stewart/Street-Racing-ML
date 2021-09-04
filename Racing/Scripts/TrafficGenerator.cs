@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class TrafficGenerator : MonoBehaviour
 {
-   
     private enum Directions {Left, Right};
     private int carsSpawned;
     private float timeSinceLastSpawn;
@@ -21,8 +20,6 @@ public class TrafficGenerator : MonoBehaviour
     {
         timeSinceLastSpawn = 0;
         carsSpawned = 0;
-       
-
     }
 
     private void SpawnTraffic()
