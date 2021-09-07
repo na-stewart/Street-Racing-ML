@@ -28,7 +28,6 @@ public class RacingAgent : Agent
         gameObject.transform.Rotate(new Vector3(0, 1, 0), vectorAction[0]);
         rigidBody.AddRelativeForce(0, 0, agentSpeed);
         detectCollision();
-
     }
 
     private void detectCollision()
@@ -50,7 +49,6 @@ public class RacingAgent : Agent
             rewardsCollected += 0.1f;
             Destroy(hitObjects[0].gameObject);
         }
-
     }
 
     public override void CollectObservations()
