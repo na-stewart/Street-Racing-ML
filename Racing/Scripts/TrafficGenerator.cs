@@ -47,7 +47,6 @@ public class TrafficGenerator : MonoBehaviour
         return (T)v.GetValue(new System.Random().Next(v.Length));
     }
 
-    // Update is called once per frame
     private void Update()
     {
         if (carsSpawned < maxCarsAllowed)
