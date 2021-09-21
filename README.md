@@ -1,5 +1,5 @@
 # Street Racing ML
-A machine learning driven racing game created for a science fair that won me the "Most Innovative Project" alongside a facial recognition program that played music based off of a users emotions.
+A machine learning driven racing game.
 
 ##  How to use
 1. Download the setup file from the releases tab.
