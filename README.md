@@ -1,6 +1,8 @@
 # Street Racing ML
 A machine learning driven racing game.
 
+Each player (AI agent) has three simple goals: collect points (red balls), avoid traffic, and to reach the finish first.
+
 ##  How to use
 1. Download the setup file from the releases tab.
 3. Decompile the application and you should be able to run it!
